@@ -1,0 +1,101 @@
+body {
+    font-family: 'Lexend', sans-serif;
+}
+.card {
+    max-width: 80em;
+    flex-direction: row;
+    margin-top: 6em;
+    margin-left: 6em;
+    margin-right: 6em;
+    border: 1px solid black;
+    border-radius: 0;
+}
+.border-end {
+    border-right: solid black;
+}
+.card .card-header p {
+    margin: auto;
+    padding: 0.5em;
+}
+.card-header {
+    border: 0;
+}
+.card-body {
+    display: flex;
+}
+.text-section {
+    max-width: 80%;
+    flex-grow: 2;
+}
+.btnplacement {
+    display: flex;
+    justify-content: space-evenly;
+}
+.logo-section {
+    max-width: 40%;
+}
+.showmore {
+    text-align: center;
+    padding: 1em;
+}
+.btn1 {
+    background-color: #6D1485;
+    color: white;
+    /*border-radius: 8px;
+    border-color: #6D1485;*/
+}
+h5 {
+    margin-left: 5em;
+    margin-right: 5em;
+}
+.container {
+    margin-top: 6em;
+    margin-left: 6em;
+    margin-right: 6em;
+    /*border: 1px solid black;*/
+}
+.btn2 {
+    background-color:white;
+    color: black;
+    border: 1px solid black;
+}
+.col .items {
+    display: flex;
+    flex-flow: column wrap;
+}
+/*  NEWSLETTER  */
+.newsletter h2 {
+    color: #6d1485;
+}
+  
+hr.hr {
+    border: 22px solid #322f2f;
+    width: 30%;
+}
+  
+.newsletter input {
+    border: 2px solid #6d1485;
+    border-radius: 8px;
+}
+  
+.newsletter .form-control:focus {
+    border-color: #ddaaec;
+    outline: 0;
+    box-shadow: 0 0 0 0.25rem rgb(109, 20, 133);
+}
+  
+/*  ABOUT US    */
+section.about {
+    background: #322f2f;
+    color: #f6f943;
+}
+  
+/* FOOTER */
+footer {
+    background: #ddaaec;
+}
+  
+footer h1 {
+    text-align: end;
+}
+  

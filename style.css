@@ -1,0 +1,134 @@
+/* COMMON FOR ALL */
+
+h2 {
+  font-family: "Lexend", sans-serif;
+  font-size: 2em;
+  font-weight: 700;
+  margin: 0;
+}
+
+h3 {
+  font-family: "Lexend Deca", sans-serif;
+  font-size: 1.5em;
+  font-weight: 400;
+}
+
+p {
+  font-size: 1.125em;
+  font-family: "Lexend Deca", sans-serif;
+  font-weight: 400;
+  margin: 0;
+  letter-spacing: 0.075em;
+}
+
+button.custom {
+  font-family: "Lexend Deca", sans-serif;
+  font-size: 1.1em;
+  font-weight: 400;
+  background: #6d1485;
+  border-color: #6d1485;
+  border-radius: 10px;
+  width: auto;
+}
+
+button.custom:hover,
+.btn:first-child:active,
+button.custom:focus {
+  background: #6d1485;
+  border-color: #000;
+}
+
+/* HEADER */
+
+/* LOGO */
+
+.navbar-brand {
+  font-family: "Lexend", sans-serif;
+  font-size: 2.75em;
+  font-weight: 500;
+}
+
+/* ACCESSIBILITY MENU */
+
+button.Menu {
+  border: none;
+  background-color: white;
+}
+
+/* SEARCH */
+
+button.Search {
+  border: none;
+  background-color: white;
+}
+
+.search-box {
+  border: 4px solid #000;
+  width: 330px;
+  padding: 8px;
+}
+
+input.input-box {
+  background: transparent;
+  border: 0px;
+  outline: 0px;
+  width: 300px;
+}
+
+/*  QUESTIONS  */
+
+.questions h2 {
+  color: #6d1485;
+}
+
+.questions input {
+  border: 2px solid #6d1485;
+  border-radius: 8px;
+}
+
+.questions .form-control:focus {
+  border-color: #ddaaec;
+  outline: 0;
+  box-shadow: 0 0 0 0.25rem rgb(109, 20, 133);
+}
+
+#AddQues {
+  height: 8em;
+}
+
+/*  NEWSLETTER  */
+.newsletter h2 {
+  color: #6d1485;
+}
+
+hr.hr {
+  border: 22px solid #322f2f;
+  width: 30%;
+}
+
+.newsletter input {
+  border: 2px solid #6d1485;
+  border-radius: 8px;
+}
+
+.newsletter .form-control:focus {
+  border-color: #ddaaec;
+  outline: 0;
+  box-shadow: 0 0 0 0.25rem rgb(109, 20, 133);
+}
+
+/*  ABOUT US    */
+
+section.about {
+  background: #322f2f;
+  color: #f6f943;
+}
+
+/* FOOTER */
+footer {
+  background: #ddaaec;
+}
+
+footer h1 {
+  text-align: end;
+}
